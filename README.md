@@ -1,49 +1,53 @@
 # lowHD + D2R QoL
 
-Diablo II: Resurrected performance and quality-of-life mods by **celloboy126** on jsp, Nexus Mods and Traderie.
+Diablo II: Resurrected mods by **celloboy126** on jsp, Nexus Mods and Traderie.
 
-lowHD reduces visual content to help lower memory use and improve performance when running D2R, especially multiple accounts. This repository distributes four lowHD variants and QoL, which retains the original graphics while adding the QoL controls from lowHDmin. Shader binaries are included in the lowHD variants where supplied. Choose a variant below or browse [Releases](https://github.com/celloboy126/lowHD/releases).
+## Download the mods
 
-| Download | Variant |
-| --- | --- |
-| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.19/lowHDmain.zip) | Main |
-| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.19/lowHDfiller.zip) | Filler |
-| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.19/lowHDmin.zip) | Min |
-| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.19/lowHDpartial.zip) | Partial |
-| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.20-QoL/QoL.zip) | Original graphics with QoL |
+**Last updated: October 31, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
 
-QoL preserves normal audio and cinematics, adds a gentler Thunderstorm effect without a full-screen flash and increased unique-monster saturation, and includes persistent other-player information (level, name, area), fast exit to lobby, transparent click-through panels, in-game make/join, automatic game-name focus in the lobby, and full arrow-key game-menu navigation. These controls support the default Make/Join workflow in **D2R Multigate Launcher**, currently in development.
+| Download | Purpose | Updated |
+| --- | --- | --- |
+| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmain.zip) | Main performance variant | October 31, 2026 |
+| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDfiller.zip) | Filler accounts | October 31, 2026 |
+| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDmin.zip) | Minimal visuals | October 31, 2026 |
+| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/lowHDpartial.zip) | More retained game visuals | October 31, 2026 |
+| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.10.31/QoL.zip) | Original graphics with QoL improvements | October 31, 2026 |
 
-## Download counts
+Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.16.1 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
 
-GitHub counts downloads of each release asset. These are download requests, not unique people or mod installations. Repeated downloads count again, and bundled offline mod installs do not download a separate GitHub asset. Automatic source-code ZIP downloads are not the mod packages.
+## Planned updates
 
-[![lowHDmain downloads](https://img.shields.io/github/downloads/celloboy126/lowHD/lowHDmain.zip?label=lowHDmain)](https://github.com/celloboy126/lowHD/releases)
-[![lowHDfiller downloads](https://img.shields.io/github/downloads/celloboy126/lowHD/lowHDfiller.zip?label=lowHDfiller)](https://github.com/celloboy126/lowHD/releases)
-[![lowHDmin downloads](https://img.shields.io/github/downloads/celloboy126/lowHD/lowHDmin.zip?label=lowHDmin)](https://github.com/celloboy126/lowHD/releases)
-[![lowHDpartial downloads](https://img.shields.io/github/downloads/celloboy126/lowHD/lowHDpartial.zip?label=lowHDpartial)](https://github.com/celloboy126/lowHD/releases)
-[![QoL downloads](https://img.shields.io/github/downloads/celloboy126/lowHD/QoL.zip?label=QoL)](https://github.com/celloboy126/lowHD/releases)
+**lowHDpartial will be reworked** to bring its speed closer to main while retaining important game visuals, without the black-world graphics used by main. This is planned work and is **not included in the current ZIP**.
 
-The [public release API](https://api.github.com/repos/celloboy126/lowHD/releases?per_page=100) exposes each asset's `download_count`. Only download counts are used; no country tracking is planned. No telemetry is added to the launcher for these counts.
+**All four lowHD variants and QoL are planned to be updated shortly after the Season 16 patch is released.** Check this page or Releases for fresh packages and their update dates.
+
+## What is included
+
+lowHD reduces visual content to lower resource use, particularly for multiple D2R accounts. Main, filler and min include shader `.bin` files where supplied by the author; partial and QoL currently contain no shader binaries. These are the current shader-inclusive packages, not older NOSHADERS archives.
+
+QoL preserves normal audio and cinematics and the original HD graphics apart from its targeted visual improvements: a gentler Thunderstorm effect without the full-screen flash, increased unique-monster saturation, and altered sprites for features such as transparent panels. It includes player metadata, fast exit to lobby, transparent click-through panels, make/join controls, automatic lobby game-name focus and full arrow-key game-menu navigation. The fresh mods also accept **Enter** to open the lobby from online character selection.
 
 ## Installation
 
-1. Download one variant from Releases. Use the ZIP assets rather than GitHub's automatic source-code ZIP.
-2. Extract into your D2R `mods` folder. For example, the result should include `mods/lowHDmain/lowHDmain.mpq/modinfo.json`.
-3. Launch D2R with `-mod lowHDmain -txt`, replacing `lowHDmain` with the installed variant name. Main and partial use `-txt` for reduced missile particles.
+1. Download a variant from the links above.
+2. Extract it into D2R's `mods` folder. For example: `mods/lowHDmain/lowHDmain.mpq/modinfo.json`.
+3. Launch with `-mod lowHDmain`, replacing the name for another variant.
 
-**Preserve customized installations:** do not extract updates over an existing mod folder. Move or rename your existing folder first. The companion launcher refuses a conflicting installation instead of overwriting it.
+Optional: append **`-ns`** to prevent sound from loading, particularly for filler/min accounts. Main and partial also support **`-txt`** for reduced missile particles.
 
-Optional low-graphics settings are described in each package's `optimal_settings` folder. To keep separate game settings, see the `savepath` field in `modinfo.json`: the Nexus instructions describe changing `../` to `./lowHD[...]`. These changes are optional and are not applied automatically.
+Preserve custom edits: move or rename an existing mod folder before manually extracting an update. In the launcher, disable automatic bundled-mod replacement if you maintain your own changes. Its normal fresh-install action refuses a conflicting name; its explicitly permitted update action can replace the installed bundled mods after games close.
 
-After a D2R patch, the mod's `data/global/dataversionbuild.txt` may need updating to the current game build. The author generally revises these variants after patches; download the latest compatible release rather than overwriting your own adjustments blindly.
+Optional low-graphics presets are in each lowHD package's `optimal_settings` folder. The launcher can apply low or standard graphics/save-path settings and import movement keybindings; existing saved graphics/key files are preserved by the creation-only import. See the [original Nexus instructions](https://www.nexusmods.com/diablo2resurrected/mods/1054?tab=description) for manual setup and screenshots. After a game patch, download the author's compatible package; changing `data/global/dataversionbuild.txt` alone does not establish compatibility.
 
-## Shader-inclusive packages
+## Verification and download counts
 
-The 2026-10-19 release preserves the author-approved installed versions. Main, filler and min include shader `.bin` files; partial currently contains none. These are the shader-inclusive packages, not the older `NOSHADERS` archives. `SHA256SUMS.txt` and `catalog.json` accompany each release for verification.
+Each release includes **catalog.json** and **SHA256SUMS.txt**. Archive paths are normalized for the launcher's strict installer, and every contained file is verified unchanged from the author's fresh ZIPs.
 
-## Details, screenshots and credits
+GitHub records each release asset's `download_count` in the [public release API](https://api.github.com/repos/celloboy126/lowHD/releases?per_page=100). These are download requests, not unique people or installations. Repeated downloads count again; installing an already bundled mod does not download another GitHub asset. No country tracking or launcher telemetry is added for these counts.
 
-See [the original lowHD Nexus page](https://www.nexusmods.com/diablo2resurrected/mods/1054?tab=description) for screenshots and more information.
+## Credits and contact
 
-Inspired by Gimli's TinyMod, mininexus mod, and numerous modders on inven. All original credits within the packages are retained. Release preparation and companion launcher development by celloboy126, with Codex.
+Original credits inside the packages are retained. Inspired by Gimli's TinyMod, mininexus mod, numerous modders on inven. By celloboy126, with Codex.
+
+[Launcher and documentation](https://github.com/celloboy126/D2R-Multigate-Launcher) · [Discord: celloboy126](https://discord.com/users/754143383978508379)
