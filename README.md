@@ -4,23 +4,29 @@ Diablo II: Resurrected mods by **celloboy126** on jsp, Nexus Mods and Traderie.
 
 ## Download the mods
 
-**Last updated: November 5, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
+**Last updated: November 10, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
 
 | Download | Purpose | Updated |
 | --- | --- | --- |
-| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmain.zip) | Main performance variant | November 5, 2026 |
-| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDfiller.zip) | Filler accounts | November 5, 2026 |
-| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDmin.zip) | Minimal visuals | November 5, 2026 |
-| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/lowHDpartial.zip) | More retained game visuals | November 5, 2026 |
-| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.05/QoL.zip) | Original graphics with QoL improvements | November 5, 2026 |
+| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmain.zip) | Main performance variant | November 10, 2026 |
+| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
+| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
+| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDpartial.zip) | More retained game visuals | November 10, 2026 |
+| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
 
-Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.16.2 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
+Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.0 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
 
 ## Planned updates
 
-**lowHDpartial has a fresh November 5 package**, with further performance tuning planned while retaining more game visuals. The launcher now offers optional expansion with missing extracted assets to reduce compressed-archive fallbacks.
+**lowHDpartial has a fresh November 10 package**, with further performance tuning planned while retaining more game visuals. The launcher now offers optional expansion with missing extracted assets to reduce compressed-archive fallbacks.
 
-**All four lowHD variants and QoL are planned to be updated shortly after the Season 16 patch is released.** Check this page or Releases for fresh packages and their update dates.
+**November 10 refresh:** the reviewed current files, including the latest extracted HD-asset updates, are packaged in all five variants. Further fixes and lowHDpartial performance tuning will be distributed through new releases.
+
+## Visual badges and this refresh
+
+All five variants include discreet gold screen/panel badges and paired rectangular player-count markers for the launcher's visual recognition and parking. Older/unmodified setups retain the launcher's legacy recognition fallbacks. Restart D2R after updating to reload cached layouts and textures.
+
+Main includes conservative 128×128 native-mip hair-control textures. Filler now uses the same HUD transparency as main, exposing the existing count markers. The launcher still performs screen-based recognition without game-memory access or injection.
 
 ## What is included
 
@@ -42,16 +48,16 @@ Optional low-graphics presets are in each lowHD package's `optimal_settings` fol
 
 ## Verification and download counts
 
-Each release includes **catalog.json** and **SHA256SUMS.txt**. Archive paths are normalized for the launcher's strict installer, and every contained file is verified unchanged from the author's fresh ZIPs.
+Each release includes **catalog.json** and **SHA256SUMS.txt**. Archive paths satisfy the launcher's strict installer, and every file is verified against the reviewed mod folders. The standalone ZIPs are byte-for-byte identical to the packages embedded in launcher 0.17.0.
 
 GitHub records each release asset's `download_count` in the [public release API](https://api.github.com/repos/celloboy126/lowHD/releases?per_page=100). These are download requests, not unique people or installations. Repeated downloads count again; installing an already bundled mod does not download another GitHub asset. No country tracking or launcher telemetry is added for these counts.
 
 ## Credits and contact
 
-Original credits inside the packages are retained. Inspired by Gimli's TinyMod, mininexus mod, numerous modders on inven. By celloboy126, with Codex.
+Original credits inside the packages are retained. Inspired by Gimli's TinyMod, mininexus mod, and numerous modders on Inven. By celloboy126, with Codex.
 
 [Launcher and documentation](https://github.com/celloboy126/D2R-Multigate-Launcher) · [Discord: celloboy126](https://discord.com/users/754143383978508379)
 
 ## Optional extracted assets for partial
 
-The 0.16.2 launcher can copy missing extracted assets into **lowHDpartial only**. Install partial, extract game data using the launcher, then use **Copy extracted data into lowHDpartial** under lowHD / QoL mods. Existing files, zero-byte overrides and the partial build marker are preserved. Keep using `-mod lowHDpartial`. Expect substantial additional disk space; the confirmation shows the actual amount. Mod updates replace the expanded folder, so refresh extracted data and repeat the copy afterward.
+The 0.17.0 launcher can copy missing extracted assets into **lowHDpartial only**. Install partial, extract game data using the launcher, then use **Copy extracted data into lowHDpartial** under lowHD / QoL mods. Existing files, zero-byte overrides and the partial build marker are preserved. Keep using `-mod lowHDpartial`. Expect substantial additional disk space; the confirmation shows the actual amount. Mod updates replace the expanded folder, so refresh extracted data and repeat the copy afterward.
