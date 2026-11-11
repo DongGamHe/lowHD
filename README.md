@@ -4,23 +4,21 @@ Diablo II: Resurrected mods by **celloboy126** on jsp, Nexus Mods and Traderie.
 
 ## Download the mods
 
-**Last updated: November 10, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
+**Last updated: November 11, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
 
 | Download | Purpose | Updated |
 | --- | --- | --- |
-| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmain.zip) | Main performance variant | November 10, 2026 |
-| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
-| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
-| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/lowHDpartial.zip) | More retained game visuals | November 10, 2026 |
-| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.10/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
+| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmain.zip) | Main performance variant | November 11, 2026 |
+| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
+| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
+| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDpartial.zip) | More retained game visuals | November 11, 2026 |
+| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
 
-Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.0 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
+Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.2 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
 
-## Planned updates
+## November 11 refresh
 
-**lowHDpartial has a fresh November 10 package**. The launcher now offers optional expansion with missing extracted assets to reduce compressed-archive fallbacks.
-
-**November 10 refresh:** the reviewed current files, including the latest extracted HD-asset updates, are packaged in all five variants. Further fixes and lowHDpartial performance tuning will be distributed through new releases.
+lowHDmain and lowHDpartial include updated environment and object assets. The launcher offers optional expansion of lowHDpartial with missing extracted assets to reduce compressed-archive fallbacks.
 
 ## Visual badges and this refresh
 
