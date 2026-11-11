@@ -18,7 +18,7 @@ Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17
 
 ## Planned updates
 
-**lowHDpartial has a fresh November 10 package**, with further performance tuning planned while retaining more game visuals. The launcher now offers optional expansion with missing extracted assets to reduce compressed-archive fallbacks.
+**lowHDpartial has a fresh November 10 package**. The launcher now offers optional expansion with missing extracted assets to reduce compressed-archive fallbacks.
 
 **November 10 refresh:** the reviewed current files, including the latest extracted HD-asset updates, are packaged in all five variants. Further fixes and lowHDpartial performance tuning will be distributed through new releases.
 
