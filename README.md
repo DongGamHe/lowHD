@@ -8,17 +8,17 @@ Diablo II: Resurrected mods by **celloboy126** on jsp, Nexus Mods and Traderie.
 
 | Download | Purpose | Updated |
 | --- | --- | --- |
-| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmain.zip) | Main performance variant | November 11, 2026 |
-| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
-| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
-| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/lowHDpartial.zip) | More retained game visuals | November 11, 2026 |
-| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
+| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip) | Main performance variant | November 11, 2026 |
+| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
+| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
+| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip) | More retained game visuals | November 11, 2026 |
+| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
 
-Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.2 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
+Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.3 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
 
 ## November 11 refresh
 
-lowHDmain and lowHDpartial include updated environment and object assets. The launcher offers optional expansion of lowHDpartial with missing extracted assets to reduce compressed-archive fallbacks.
+This release includes the latest lowHDmain and lowHDpartial files. The launcher offers optional expansion of lowHDpartial with missing extracted assets to reduce compressed-archive fallbacks.
 
 ## Visual badges and this refresh
 
