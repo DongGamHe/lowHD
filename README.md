@@ -2,23 +2,25 @@
 
 Diablo II: Resurrected mods by **celloboy126** on jsp, Nexus Mods and Traderie.
 
+**[한국어 설치 및 문제 해결 안내](README.ko.md)**
+
 ## Download the mods
 
-**Last updated: November 11, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
+**Last updated: November 12, 2026.** Open the **[latest mod release](https://github.com/celloboy126/lowHD/releases/latest)** and download a ZIP under **Assets**, or use these direct links:
 
 | Download | Purpose | Updated |
 | --- | --- | --- |
-| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmain.zip) | Main performance variant | November 11, 2026 |
-| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
-| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDmin.zip) | Minimal visuals | November 10, 2026 |
-| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/lowHDpartial.zip) | More retained game visuals | November 11, 2026 |
-| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.11.2/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
+| [lowHDmain.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmain.zip) | Main performance variant | November 12, 2026 |
+| [lowHDfiller.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDfiller.zip) | Filler accounts | November 10, 2026 |
+| [lowHDmin.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDmin.zip) | Minimal visuals | November 12, 2026 |
+| [lowHDpartial.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/lowHDpartial.zip) | More retained game visuals | November 12, 2026 |
+| [QoL.zip](https://github.com/celloboy126/lowHD/releases/download/v2026.11.12/QoL.zip) | Original graphics with QoL improvements | November 10, 2026 |
 
-Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.3 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
+Use these ZIP assets, **not GitHub's automatic source-code archives**. The [0.17.10 launcher](https://github.com/celloboy126/D2R-Multigate-Launcher/releases/latest) bundles the same verified mod contents and offers installation tools.
 
-## November 11 refresh
+## November 12 refresh
 
-This release includes the latest lowHDmain and lowHDpartial files. The launcher offers optional expansion of lowHDpartial with missing extracted assets to reduce compressed-archive fallbacks.
+lowHDpartial ships nine empty cinematic video files and seven empty companion audio files. The optional extracted-data copy preserves these files, avoiding approximately 2.15 GiB of duplicate media. The lowHD shaders and in-game audio assets are unchanged by this edit. Use the lowest graphics preset with lowHDpartial. The bundle also includes current main and partial Catacombs waypoint files and the min menu/layout fixes.
 
 ## Visual badges and this refresh
 
@@ -46,7 +48,7 @@ Optional low-graphics presets are in each lowHD package's `optimal_settings` fol
 
 ## Verification and download counts
 
-Each release includes **catalog.json** and **SHA256SUMS.txt**. Archive paths satisfy the launcher's strict installer, and every file is verified against the reviewed mod folders. The standalone ZIPs are byte-for-byte identical to the packages embedded in launcher 0.17.0.
+Each release includes **catalog.json** and **SHA256SUMS.txt**. Archive paths satisfy the launcher's strict installer, and every file is verified against the reviewed mod folders. The standalone ZIPs are byte-for-byte identical to the packages embedded in launcher 0.17.10.
 
 GitHub records each release asset's `download_count` in the [public release API](https://api.github.com/repos/celloboy126/lowHD/releases?per_page=100). These are download requests, not unique people or installations. Repeated downloads count again; installing an already bundled mod does not download another GitHub asset. No country tracking or launcher telemetry is added for these counts.
 
